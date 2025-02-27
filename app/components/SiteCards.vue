@@ -110,12 +110,14 @@
             }}
           </n-text>
           <n-text v-else depth="3">
+            <!--
             {{
               $t("card.summary", {
                 days: site?.days?.length,
                 percent: site?.percent,
               })
             }}
+            -->
           </n-text>
           <n-text class="date" depth="3">{{ $t("meta.today") }}</n-text>
         </n-flex>
