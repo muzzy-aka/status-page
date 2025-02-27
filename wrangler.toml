@@ -1,4 +1,4 @@
 name = "status-page"
 compatibility_date = "2025-02-26"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = "./public"
+pages_build_output_dir = "./dist"
