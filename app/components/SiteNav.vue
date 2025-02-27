@@ -24,25 +24,8 @@
             </template>
           </n-button>
         </Transition>
-        <!-- 语言 -->
-        <n-popselect
-          v-model:value="statusStore.siteLang"
-          :options="langData"
-          trigger="click"
-        >
-          <n-button
-            :focusable="false"
-            :color="iconColor"
-            size="large"
-            quaternary
-            circle
-          >
-            <template #icon>
-              <Icon name="icon:language" />
-            </template>
-          </n-button>
-        </n-popselect>
         <!-- 菜单 -->
+        <!--
         <n-dropdown trigger="click" :options="navMenu">
           <n-button
             :focusable="false"
@@ -56,6 +39,7 @@
             </template>
           </n-button>
         </n-dropdown>
+        -->
       </n-flex>
     </div>
   </nav>
