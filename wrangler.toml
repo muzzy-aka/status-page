@@ -1,0 +1,3 @@
+name = "site-status"
+compatibility_date = "2025-02-26"
+compatibility_flags = ["nodejs_compat"]
