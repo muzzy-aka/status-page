@@ -1,11 +1,11 @@
 {
   "uptimeRobot": "UptimeRobot",
   "site": {
-    "loading": "站点状态加载中",
-    "unknown": "站点状态未知",
-    "normal": "站点运行正常",
-    "error": "全部站点出现异常",
-    "warn": "部分站点出现异常"
+    "loading": "正在加载...",
+    "unknown": "状态未知",
+    "normal": "运行正常",
+    "error": "服务出现异常",
+    "warn": "服务出现异常"
   },
   "nav": {
     "about": "关于本站",
@@ -34,11 +34,11 @@
     "errorText": "接口调用超限或请求错误，请稍后重试",
     "status": {
       "stop": "暂停检测",
-      "unknown": "还未检查",
+      "unknown": "还未检测",
       "pause": "暂停检测",
-      "normal": "正常访问",
-      "error": "站点异常",
-      "down": "无法访问"
+      "normal": "工作正常",
+      "error": "工作异常",
+      "down": "离线"
     },
     "type": {
       "tip": "每间隔 {interval}，{type}来判断段站点是否运行正常",
