@@ -7,7 +7,7 @@ export default defineI18nConfig(() => ({
   legacy: false,
   locale: "zh-CN",
   //messages: { "zh-CN": zh, "ja-JP": jp, "ko-KR": kr, en },
-  messages: { "zh-CN": zh }
+  messages: { "zh-CN": zh },
   fallbackLocale: "zh-CN",
   // 语言偏好
   detectBrowserLanguage: {
