@@ -9,7 +9,7 @@
         class="site-item"
         hoverable
       >
-        <!-- 信息 -->
+        <!--
         <n-flex class="meta" justify="space-between">
           <n-flex :size="8" class="title" align="center">
             <n-text class="site-name">{{ site.name }}</n-text>
@@ -29,7 +29,6 @@
                 }}
               </n-text>
             </n-popover>
-            <!-- 跳转 -->
             <n-button
               v-if="site?.url"
               :focusable="false"
@@ -54,7 +53,7 @@
             <Icon v-else name="icon:pause" />
             <n-text>{{ siteStatusMap[site.status]?.text }}</n-text>
           </n-flex>
-        </n-flex>
+        </n-flex>-->
         <!-- 每日数据 -->
         <n-flex
           v-if="site?.days?.length"
