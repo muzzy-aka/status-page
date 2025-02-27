@@ -29,8 +29,9 @@
                 }}
               </n-text>
             </n-popover>
+            -->
             <n-button
-              v-if="site?.url"
+              v-if="site.type == 1"
               :focusable="false"
               size="tiny"
               tertiary
@@ -41,7 +42,6 @@
                 <Icon name="icon:link" />
               </template>
             </n-button>
-            -->
           </n-flex>
           <n-flex
             :style="{
