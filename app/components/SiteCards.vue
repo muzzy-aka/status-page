@@ -97,11 +97,9 @@
         </n-flex>
         <!-- 总结 -->
         <n-flex class="summary" justify="space-between">
-          <!--
           <n-text class="date" depth="2">
-            {{ formatTime(site?.days?.[0]?.date || 0) }}
+            <!-- {{ formatTime(site?.days?.[0]?.date || 0) }} -->
           </n-text>
-          -->
           <n-text v-if="site?.down?.times" depth="2">
             {{
               $t("card.summaryData", {
@@ -119,9 +117,7 @@
               })
             }}
           </n-text>
-          <!--
-          <n-text class="date" depth="2">{{ $t("meta.today") }}</n-text>
-          -->
+          <n-text class="date" depth="2"><!--{{ $t("meta.today") }}--></n-text>
         </n-flex>
       </n-card>
     </div>
