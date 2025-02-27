@@ -9,9 +9,8 @@
         class="site-item"
         hoverable
       >
-        <!--
         <n-flex class="meta" justify="space-between">
-          <n-flex :size="8" class="title" align="center">
+          <!--<n-flex :size="8" class="title" align="center">
             <n-text class="site-name">{{ site.name }}</n-text>
             <n-popover>
               <template #trigger>
@@ -41,7 +40,7 @@
                 <Icon name="icon:link" />
               </template>
             </n-button>
-          </n-flex>
+          </n-flex>-->
           <n-flex
             :style="{
               '--bg-color': `var(--${siteStatusMap[site.status]?.type || 'unknown'}-color)`,
@@ -53,7 +52,7 @@
             <Icon v-else name="icon:pause" />
             <n-text>{{ siteStatusMap[site.status]?.text }}</n-text>
           </n-flex>
-        </n-flex>-->
+        </n-flex>
         <!-- 每日数据 -->
         <n-flex
           v-if="site?.days?.length"
