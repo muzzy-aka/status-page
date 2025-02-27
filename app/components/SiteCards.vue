@@ -100,8 +100,9 @@
           <!--
           <n-text class="date" depth="1">
             {{ formatTime(site?.days?.[0]?.date || 0) }}
-          -->
           </n-text>
+          
+          -->
           <n-text v-if="site?.down?.times" depth="2">
             {{
               $t("card.summaryData", {
