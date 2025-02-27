@@ -117,7 +117,7 @@
               })
             }}
           </n-text>
-          <!--<n-text class="date" depth="2"><{{ $t("meta.today") }}</n-text>-->
+          <n-text class="date" depth="2"><!--{{ $t("meta.today") }}--></n-text>
         </n-flex>
       </n-card>
     </div>
