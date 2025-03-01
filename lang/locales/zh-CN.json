@@ -35,11 +35,11 @@
     "errorText": "接口调用超限或请求错误，请稍后重试",
     "status": {
       "stop": "暂停检测",
-      "unknown": "还未检测",
+      "unknown": "暂无数据",
       "pause": "暂停检测",
-      "normal": "工作正常",
-      "error": "工作异常",
-      "down": "离线"
+      "normal": "运行正常",
+      "error": "出现故障",
+      "down": "不可用"
     },
     "type": {
       "tip": "每间隔 {interval}，{type}来判断段站点是否运行正常",
