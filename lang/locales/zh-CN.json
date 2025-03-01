@@ -29,7 +29,8 @@
     "percent": "当日可用率 {percent}%",
     "percentData": "故障 {times} 次，累计故障时长 {duration}，当日可用率 {percent}%",
     "summary": "最近 {days} 天内可用率 {percent}%",
-    "summaryData": "最近 {days} 天内故障 {times} 次，累计故障时长 {duration}，平均可用率 {percent}%",
+    "summaryData__": "最近 {days} 天内故障 {times} 次，累计故障时长 {duration}，平均可用率 {percent}%",
+    "summaryData": "最近 {days} 天内可用率 {percent}%",
     "error": "出错啦",
     "errorText": "接口调用超限或请求错误，请稍后重试",
     "status": {
