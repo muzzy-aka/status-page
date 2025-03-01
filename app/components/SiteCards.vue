@@ -106,6 +106,7 @@
           <n-text v-if="site?.down?.times" depth="2">
             {{
               $t("card.summaryData", {
+                days: site?.days?.length,
                 times: site?.down?.times,
                 duration: formatDuration(site?.down?.duration),
                 percent: site?.percent,
